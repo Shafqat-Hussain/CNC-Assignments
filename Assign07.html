@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Chapter # 7 - Forms</h1>
+    <fieldset>
+        <legend>Your Details:</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name"> <br /> <br />
+        <label for="email">Email: </label>
+        <input type="email" id="email">
+    </fieldset>
+    <br />
+    <br />
+    <br />
+
+    <fieldset>
+        <legend>Your Review:</legend>
+        <label for="hear">How did you hear about us?</label>
+        <select name="one" id="hear">
+            <option value="Google">Goole</option>
+            <option value="Yahoo">Yahoo</option>
+            <option value="FaceBook" >FaceBook</option>
+        </select>
+        <br />
+        <br />
+        <p>Would you visit again?</p> 
+        <input type="radio" name="again" id="visit" value="yes">
+        <label for="visit">Yes</label>
+        <input type="radio" name="again" id="visit" value="no">
+        <label for="">No</label>
+        <input type="radio" name="again" id="visit" value="maybe">
+        <label for="">Maybe</label>
+        <p>Comments</p>
+        <textarea name="text" id="one" cols="30" rows="10"></textarea> <br />
+        <input type="checkbox" id="chk" checked value="click">
+        <label for="chk">Sign me up for email updates </label> <br />
+        <input type="submit" value="Submit review">
+       
+    </fieldset>
+</body>
+</html>
